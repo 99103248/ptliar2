@@ -57,7 +57,7 @@ FMT = "%(asctime)s %(levelname)s: %(message)s"
 DATEFMT = "%m-%d %H:%M:%S"
 # Default values
 DEFAULT_MAX_UP_SPEED   = 2048
-DEFAULT_MAX_DOWN_SPEED = 1024
+DEFAULT_MAX_DOWN_SPEED = 7168
 # Max torrent speed
 DEFAULT_MAX_TORRENT_SPEED = 400
 # Zzz...

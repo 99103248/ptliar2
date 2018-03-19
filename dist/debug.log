@@ -1,0 +1,18 @@
+03-19 18:05:48 INFO: ptliar started, version: v3.0.0
+03-19 18:05:48 INFO: verbose            : False
+03-19 18:05:48 INFO: ipv6               : False
+03-19 18:05:48 INFO: zero_rate          : True
+03-19 18:05:48 INFO: timer              : 8964:00:00
+03-19 18:05:48 INFO: max up bandwidth   : 2.0MB/s
+03-19 18:05:48 INFO: max down bandwidth : 4.0MB/s
+03-19 18:05:48 INFO: max torrent speed  : 1.0MB/s
+03-19 18:05:48 INFO: fake bt client     : uTorrent2.2.1
+03-19 18:05:50 INFO: time: 00:00 up_speed: 0.0B/s down_speed: 0.0B/s committed [up: 0.0B down: 0.0B]
+03-19 18:05:50 CRITICAL: no torrents available
+03-19 18:06:02 ERROR: exception in fool_around
+Traceback (most recent call last):
+  File "ptliar.py", line 746, in fool_around
+  File "ptliar.py", line 704, in _fool_around
+  File "utils\system.py", line 34, in ptl_error
+  File "utils\system.py", line 28, in ptl_exit
+NameError: global name 'exit' is not defined

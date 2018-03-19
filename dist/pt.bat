@@ -1,0 +1,1 @@
+PTLiar.exe -m 2048 -M 4096 -s 1024 -z -c uTorrent2.2.1

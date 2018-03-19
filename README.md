@@ -1,9 +1,14 @@
-# ptliar2
+该版本基于ptliar2进行修改，原版地址
+https://code.google.com/archive/p/ptliar2/wikis/PTLiarReadmeCN.wiki
+原版本从11年后就没有进行更新
+在此，代码迁移到github，继续更新维护
+
+# ptliar3
 ptliar
 
+切记，本工具只是学习交流使用，切勿恶意滥用刷流量，这样是不符合一个PTer"人人为我，我为人人"的精神。
 
 #labels Featured
-=PTLiar 2.0.11 (10/16发布)=
 
 PTLiar是一个安全方便的PT流量作弊软件。
 

@@ -35,12 +35,12 @@ from utils.system import ptl_error, ptl_exit, interrupt_on, interrupt_off, ipv6_
 from utils.bt import client_key, peer_id, hex_to_byte, split_url, is_scrapable
 from utils.fs import move, remove, mkdir, join, size, ls_ext, read_int, write_int
 
-__author__  = "ptliar.com"
-__version__ = "v2.0.11"
-__date__    = "2011/12/25"
+__author__  = "vergil"
+__version__ = "v3.0.0"
+__date__    = "2018/3/19"
 __licence__ = "gnu general public license v2.0"
-__url__     = "http://ptliar.com"
-__email__   = "s@ptliar.com"
+__url__     = "http://blog.csdn.net/dante_003?viewmode=list"
+__email__   = "vergilchiu@foxmail.com"
 __doc__     = """\
 ptliar %(version)s by %(author)s, %(date)s
 url: %(url)s
@@ -83,7 +83,7 @@ press [Ctrl+C] for exit""" % {
 log = getLogger("ptliar")
 formatter = Formatter(FMT, DATEFMT)
 # delete large log file
-if size(LOG_FILE) > MEGA:
+if size(LOG_FILE) > 10*MEGA:
     remove(LOG_FILE)
 # log file handler
 fh = FileHandler(LOG_FILE)
@@ -158,7 +158,7 @@ class PTLiarSettings:
             mkdir(DIR[up_down])
 
         log.setLevel(DEBUG)
-        log.debug("ptliar started, version: %s" % __version__)
+        log.info("ptliar started, version: %s" % __version__)
         log.info("verbose            : %s"   % (self.logging_level == DEBUG))
         log.info("ipv6               : %s"   % self.use_ipv6)
         log.info("zero_rate          : %s"   % self.use_zero_rate)
